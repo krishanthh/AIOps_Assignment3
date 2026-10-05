@@ -1,0 +1,12 @@
+{
+  "name": "ray-native",
+  "exit_code": 0,
+  "started_at": 1795054319.658699,
+  "finished_at": 1795054489.1567755,
+  "log": "logs/ray-native.log",
+  "framework": "ray",
+  "mode": "native",
+  "total_time_seconds": 166.776681,
+  "num_input_files": 2,
+  "execution_strategy": "global_deduplication_across_all_input_files"
+}

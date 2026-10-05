@@ -1,0 +1,6 @@
+FROM python:3.14.7-slim
+RUN apt-get update && apt-get install -y --no-install-recommends default-jre-headless && rm -rf /var/lib/apt/lists/*
+RUN pip install --no-cache-dir 'pyspark==4.2.0' 'ray[data,default]==2.59.0' 'pandas==3.0.6' 'pyarrow==25.0.1'
+ENV PYTHONDONTWRITEBYTECODE=1 OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1
+WORKDIR /workspace
+CMD ["python"]

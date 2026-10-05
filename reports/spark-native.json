@@ -1,0 +1,12 @@
+{
+  "name": "spark-native",
+  "exit_code": 0,
+  "started_at": 1795053663.4353178,
+  "finished_at": 1795053686.8354793,
+  "log": "logs/spark-native.log",
+  "framework": "spark",
+  "mode": "native",
+  "total_time_seconds": 13.327,
+  "input": "/workspace/data/proof/*.parquet",
+  "output": "/workspace/output/proof/spark_native"
+}

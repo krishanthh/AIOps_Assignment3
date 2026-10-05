@@ -1,0 +1,30 @@
+{
+  "method": "Exact multiset comparison of every output column using canonical rows; integer widths and timestamp precision normalized; null/NaN speed represented identically; finite floats compared by their exact IEEE hex representation. No rounding or aggregate-only comparison.",
+  "results": [
+    {
+      "path": "/home/krishanthh-mohan/DA3408/Assignment3/output/proof/spark_native",
+      "rows": 99994,
+      "different_full_rows": 0,
+      "passed": true
+    },
+    {
+      "path": "/home/krishanthh-mohan/DA3408/Assignment3/output/proof/spark_udf",
+      "rows": 99994,
+      "different_full_rows": 0,
+      "passed": true
+    },
+    {
+      "path": "/home/krishanthh-mohan/DA3408/Assignment3/output/proof/ray_native",
+      "rows": 99994,
+      "different_full_rows": 0,
+      "passed": true
+    },
+    {
+      "path": "/home/krishanthh-mohan/DA3408/Assignment3/output/proof/ray_udf",
+      "rows": 99994,
+      "different_full_rows": 0,
+      "passed": true
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,21 @@
+{
+  "scope": "Fresh verification only: first 50,000 real rows from each of two 2024 TLC monthly files. Historical 36-month benchmark results are retained separately.",
+  "rows_before_cleaning": 100000,
+  "sources": [
+    {
+      "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-01.parquet",
+      "sha256": "c4d59da7bbc8abaeeeb1727947ee93d9891a71acb42854bd80db1571b2030510",
+      "downloaded_bytes": 49961641,
+      "source_rows": 2964624,
+      "verification_rows": 50000
+    },
+    {
+      "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-02.parquet",
+      "sha256": "c76c43c18c6c6664080dd920baab4928988d5786a6b65980792ca7cd796f9f20",
+      "downloaded_bytes": 50349284,
+      "source_rows": 3007526,
+      "verification_rows": 50000
+    }
+  ],
+  "regression_fixture": "Separate six-row fixture: one cross-file duplicate, one null-distance row, zero/negative durations. Expected retained rows: 4."
+}

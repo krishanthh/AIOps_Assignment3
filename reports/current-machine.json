@@ -1,0 +1,6 @@
+{
+  "host_architecture": "aarch64",
+  "logical_cpus": 8,
+  "physical_memory_bytes": 5647396864,
+  "verification_scope": "100,000 real TLC input rows, separate synthetic edge-case regression fixture, two workers with one CPU each. Historical full-dataset timings are not replaced by these fresh verification numbers."
+}

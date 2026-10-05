@@ -1,0 +1,26 @@
+{
+  "name": "ray-feature",
+  "exit_code": 0,
+  "started_at": 1795054855.3265264,
+  "finished_at": 1795055081.9750345,
+  "log": "logs/ray-feature.log",
+  "framework": "ray",
+  "rows": 99994,
+  "scope": "Only average-speed calculation and its forced reduction on materialized post-join data; includes task scheduling and reduction, excludes ingestion, cleaning, joins and export. One untimed warm-up per mode; three interleaved timed repetitions.",
+  "seconds": {
+    "native": [
+      6.933138262999819,
+      6.365096116000132,
+      6.454171544000019
+    ],
+    "udf": [
+      6.299509559999933,
+      6.600284704999467,
+      6.379361166000308
+    ]
+  },
+  "median_seconds": {
+    "native": 6.454171544000019,
+    "udf": 6.379361166000308
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "spark-feature",
+  "exit_code": 0,
+  "started_at": 1795053755.1816,
+  "finished_at": 1795053782.3945894,
+  "log": "logs/spark-feature.log",
+  "framework": "spark",
+  "rows": 99994,
+  "scope": "Only average-speed calculation and its forced reduction on materialized post-join data; includes task scheduling and reduction, excludes ingestion, cleaning, joins and export. One untimed warm-up per mode; three interleaved timed repetitions.",
+  "seconds": {
+    "native": [
+      0.3571090510004069,
+      0.34586876499997743,
+      0.3199006269996971
+    ],
+    "udf": [
+      0.5951489450008012,
+      0.5618748799997775,
+      0.4495371120001437
+    ]
+  },
+  "median_seconds": {
+    "native": 0.34586876499997743,
+    "udf": 0.5618748799997775
+  }
+}

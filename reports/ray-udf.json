@@ -1,0 +1,12 @@
+{
+  "name": "ray-udf",
+  "exit_code": 0,
+  "started_at": 1795054489.1586905,
+  "finished_at": 1795054681.817063,
+  "log": "logs/ray-udf.log",
+  "framework": "ray",
+  "mode": "udf",
+  "total_time_seconds": 189.021905,
+  "num_input_files": 2,
+  "execution_strategy": "global_deduplication_across_all_input_files"
+}

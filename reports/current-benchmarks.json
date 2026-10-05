@@ -1,0 +1,86 @@
+[
+  {
+    "framework": "spark",
+    "mode": "native",
+    "total_time_seconds": 13.327,
+    "cpu_peak_sum_percent": 325.12,
+    "memory_peak_sum_mib": 1471.8,
+    "per_container": {
+      "a3-proof-spark-master": {
+        "cpu": 108.85,
+        "memory": 658.6
+      },
+      "a3-proof-spark-worker-1": {
+        "cpu": 110.9,
+        "memory": 463.5
+      },
+      "a3-proof-spark-worker-2": {
+        "cpu": 105.37,
+        "memory": 349.7
+      }
+    }
+  },
+  {
+    "framework": "spark",
+    "mode": "udf",
+    "total_time_seconds": 15.34,
+    "cpu_peak_sum_percent": 325.53999999999996,
+    "memory_peak_sum_mib": 1744.0,
+    "per_container": {
+      "a3-proof-spark-master": {
+        "cpu": 110.08,
+        "memory": 739.1
+      },
+      "a3-proof-spark-worker-1": {
+        "cpu": 105.56,
+        "memory": 519.0
+      },
+      "a3-proof-spark-worker-2": {
+        "cpu": 109.9,
+        "memory": 485.9
+      }
+    }
+  },
+  {
+    "framework": "ray",
+    "mode": "native",
+    "total_time_seconds": 166.776681,
+    "cpu_peak_sum_percent": 329.65,
+    "memory_peak_sum_mib": 2306.696,
+    "per_container": {
+      "a3-proof-ray-head": {
+        "cpu": 105.42,
+        "memory": 1258.496
+      },
+      "a3-proof-ray-worker-1": {
+        "cpu": 111.58,
+        "memory": 519.5
+      },
+      "a3-proof-ray-worker-2": {
+        "cpu": 112.65,
+        "memory": 528.7
+      }
+    }
+  },
+  {
+    "framework": "ray",
+    "mode": "udf",
+    "total_time_seconds": 189.021905,
+    "cpu_peak_sum_percent": 257.82,
+    "memory_peak_sum_mib": 2061.0,
+    "per_container": {
+      "a3-proof-ray-head": {
+        "cpu": 38.11,
+        "memory": 899.6
+      },
+      "a3-proof-ray-worker-1": {
+        "cpu": 110.09,
+        "memory": 588.7
+      },
+      "a3-proof-ray-worker-2": {
+        "cpu": 109.62,
+        "memory": 572.7
+      }
+    }
+  }
+]

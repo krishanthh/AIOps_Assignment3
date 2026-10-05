@@ -1,0 +1,7 @@
+Framework,Run,Runtime_s,CPU_peak_sum_pct,Worker_memory_peak_sum_MiB
+Spark,Native #1,137.373,,
+Spark,UDF #1,371.877,,
+Spark,Native #2,171.059,1365.53,826.2
+Spark,UDF #2,131.68,1631.68,1279.3
+Ray,Native,652.904,1465.87,1721.1
+Ray,UDF,666.97,1415.45,1833.8

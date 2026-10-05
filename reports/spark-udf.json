@@ -1,0 +1,12 @@
+{
+  "name": "spark-udf",
+  "exit_code": 0,
+  "started_at": 1795053686.836458,
+  "finished_at": 1795053712.585903,
+  "log": "logs/spark-udf.log",
+  "framework": "spark",
+  "mode": "udf",
+  "total_time_seconds": 15.34,
+  "input": "/workspace/data/proof/*.parquet",
+  "output": "/workspace/output/proof/spark_udf"
+}
